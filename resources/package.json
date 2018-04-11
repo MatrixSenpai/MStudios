@@ -1,0 +1,10 @@
+{
+  "name": "resources",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "typed.js": "^2.0.6"
+  }
+}

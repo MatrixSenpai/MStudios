@@ -1,0 +1,88 @@
+doctype html
+html
+    include imports/head/main
+
+    body
+        include imports/nav/main
+        div.jumbotron.jumbotron-fluid.jumbo-header.text-right(style="min-height: 400px")
+            div.container
+                h1.display-4 Mason Phillips
+                p MatrixSenpai
+                p.lead
+        div.container-fluid
+            div.card-deck
+                div.card.animated.bounceInUp
+                    h5.card-header <i class="fas fa-terminal mr-2"></i> Developer
+                    div.card-body
+                        p.card-text A highly skilled developer with years of experience, I've worked with everything from hardware to firmware to software.
+                        p.card-text While backend web development is my expertise, I also have experience in Swift, Python, Java, and other languages.
+                        p.card-text Programming is my passion. Some technologies I work with are
+                        ul
+                            li Languages (Python, Swift, PHP, Java)
+                            li Frameworks (CodeIgniter, WordPress)
+                            li Dependency Managers (NPM, Cocoapods, Yarn, Brew)
+                            li Systems (Windows, macOS, Linux, iOS, Cisco IOS)
+                        a.btn.btn-primary(href="#") Learn More
+                        a.btn.btn-secondary.ml-2(href="#") See My Work
+                div.card.animated.bounceInUp
+                    h5.card-header <i class="fas fa-chess mr-2"></i> Gamer
+                    div.card-body
+                        p.card-text Work is important, but I take my play seriously as well. A fan of solo story-based games, I also take time to play competitively.
+                        p.card-text From Syndra in LoL to Ellie in The Last of Us, I enjoy and stream a wide variety of games.
+                        p.card-text Teamwork is important for a job and for gaming, and my passion is in both
+                        ul
+                            li Games (League of Legends, The Last of Us, BioShock)
+                            li Competitive (Super League Gaming, Battlefy, League Clash)
+                            li Discord (Official ICDXX Gaming)
+                            li Streaming (Twitch, YouTube)
+                        a.btn.btn-primary(href="#") Learn More
+                        a.btn.btn-secondary.ml-2(href="#") See My Stream
+                div.card.animated.bounceInUp
+                    h5.card-header <i class="fas fa-poo mr-2"></i> Human
+                    div.card-body
+                        p.card-text Taking time out of a busy schedule is imperative, spending it with family and friends is even more important.
+                        p.card-text Hobbies are also an important part of life, giving spice and diversity, making wonderful memories with those I care most about.
+                        p.card-text I give just as much passion to my human side as any other side
+                        ul
+                            li Hobbies (Building computers, movies, swimming, bowling)
+                            li Learning (Seminars, field exercises)
+                            li Time with family &amp; friends
+                            li Vacations
+                        a.btn.btn-primary(href="#") Get In Contact
+                        a.btn.btn-secondary.ml-2(href="#") Get My R&#233;sum&#233;
+
+            div.row.mt-5
+                div.col-md-2.text-left.animated.bounceInLeft
+                    p Get in contact
+                    div.list-group.list-group-flush
+                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-twitch mr-2"></i> matrixsenpai
+                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-twitter mr-2"></i> &#64;mathmatrix828
+                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-discord mr-2"></i> matrixsenpai&#35;1505
+                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-reddit mr-2"></i> &#47;u&#47;matrixsenpai
+                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-github mr-2"></i> MatrixSenpai
+                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-linkedin mr-2"></i> &#47;in&#47;matrixsenpai
+                div.col-md-4.offset-md-2.text-center.animated.bounceInUp
+                    p Get My Stuff
+                    a.btn.btn-block.btn-info(href="#") R&#233;sum&#233;
+                div.col-md-2.offset-md-2.text-right.animated.bounceInRight
+                    p Get Me
+                    div.list-group.list-group-flush
+                        a.list-group-item.list-group-item-action(href="#") math.matrix&#64;icloud.com <i class="fas fa-envelope mr-2"></i>
+                        a.list-group-item.list-group-item-action(href="#") (512) 412-1623 <i class="fas fa-mobile mr-2"></i>
+
+
+        style.
+            .jumbo-header {
+                background: url("/assets/img/shiro-banner.png") no-repeat center center;
+                background-size: cover;
+            }
+
+        script.
+            new Typed('p.lead', {
+                strings: ["Incredible Software Engineer", "Video Game Enthusiast", "Twitch Streamer", "Computer Technician", "Network Specialist"],
+                showCursor: false,
+                typeSpeed: 70,
+                loop: true
+            });
+
+        include imports/foot/main

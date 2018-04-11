@@ -1,0 +1,37 @@
+Arguments: 
+  C:\Main\Langs\NodeJS\node.exe C:\Users\mjp82\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install --save animate.css
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\mjp82\AppData\Local\Microsoft\WindowsApps;C:\Program Files\PuTTY\;C:\Main\Development\Languages\PHP;C:\Main\Development\Composer;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Main\Langs\NodeJS\;C:\Users\mjp82\AppData\Local\atom\bin;C:\Users\mjp82\AppData\Roaming\Composer\vendor\bin;C:\Users\mjp82\AppData\Local\Keybase\;C:\Users\mjp82\AppData\Local\GitHubDesktop\bin;C:\Users\mjp82\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.11.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "resources",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add animate.css" instead.
+      at new MessageError (C:\Users\mjp82\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at Object.<anonymous> (C:\Users\mjp82\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\mjp82\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\mjp82\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
+      at <anonymous>

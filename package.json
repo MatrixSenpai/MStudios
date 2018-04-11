@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "dependencies": {
     "express": "^4.16.3",
+    "grunt": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-pug": "^1.0.0",
     "pug": "^2.0.3"
   }
 }

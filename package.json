@@ -6,6 +6,7 @@
     "grunt": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-pug": "^1.0.0",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "universal-analytics": "^0.4.16"
   }
 }

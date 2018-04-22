@@ -17,6 +17,12 @@ app.get('/social', function(req, res) {
     res.render('social', {dd: JSON.stringify(data)});
 });
 
+app.get('/media/:link', function(req, res) {
+    var social = req.params.link;
+
+    res.redirect(data.links[social]);
+});
+
 app.get('/download/resume', function(req, res) {
     res.download(__dirname + '/resources/downloads/Resume 2018.docx', 'Resume - Mason Phillips.docx');
 })

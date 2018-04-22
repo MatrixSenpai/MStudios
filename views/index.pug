@@ -2,6 +2,8 @@ doctype html
 html
     include imports/head/main
 
+    - var d = JSON.parse(dd);
+
     body
         include imports/nav/main
         div.jumbotron.jumbotron-fluid.jumbo-header.text-right(style="min-height: 400px")
@@ -22,8 +24,8 @@ html
                             li Frameworks (CodeIgniter, WordPress)
                             li Dependency Managers (NPM, Cocoapods, Yarn, Brew)
                             li Systems (Windows, macOS, Linux, iOS, Cisco IOS)
-                        a.btn.btn-primary(href="#") Learn More
-                        a.btn.btn-secondary.ml-2(href="#") See My Work
+                        a.btn.btn-primary(href="/professional") Learn More
+                        a.btn.btn-secondary.ml-2(href=d.links.github) See My Work
                 div.card.animated.bounceInUp
                     h5.card-header <i class="fas fa-chess mr-2"></i> Gamer
                     div.card-body
@@ -35,8 +37,8 @@ html
                             li Competitive (Super League Gaming, Battlefy, League Clash)
                             li Discord (Official ICDXX Gaming)
                             li Streaming (Twitch, YouTube)
-                        a.btn.btn-primary(href="#") Learn More
-                        a.btn.btn-secondary.ml-2(href="#") See My Stream
+                        a.btn.btn-primary(href="/social") Learn More
+                        a.btn.btn-secondary.ml-2(href=d.links.twitch) See My Stream
                 div.card.animated.bounceInUp
                     h5.card-header <i class="fas fa-poo mr-2"></i> Human
                     div.card-body
@@ -48,32 +50,12 @@ html
                             li Learning (Seminars, field exercises)
                             li Time with family &amp; friends
                             li Vacations
-                        a.btn.btn-primary(href="#") Get In Contact
-                        a.btn.btn-secondary.ml-2(href="#") Get My R&#233;sum&#233;
-
-            div.row.mt-5
-                div.col-md-2.text-left.animated.bounceInLeft
-                    p Get in contact
-                    div.list-group.list-group-flush
-                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-twitch mr-2"></i> matrixsenpai
-                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-twitter mr-2"></i> &#64;mathmatrix828
-                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-discord mr-2"></i> matrixsenpai&#35;1505
-                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-reddit mr-2"></i> &#47;u&#47;matrixsenpai
-                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-github mr-2"></i> MatrixSenpai
-                        a.list-group-item.list-group-item-action(href="#") <i class="fab fa-linkedin mr-2"></i> &#47;in&#47;matrixsenpai
-                div.col-md-4.offset-md-2.text-center.animated.bounceInUp
-                    p Get My Stuff
-                    a.btn.btn-block.btn-info(href="#") R&#233;sum&#233;
-                div.col-md-2.offset-md-2.text-right.animated.bounceInRight
-                    p Get Me
-                    div.list-group.list-group-flush
-                        a.list-group-item.list-group-item-action(href="#") math.matrix&#64;icloud.com <i class="fas fa-envelope mr-2"></i>
-                        a.list-group-item.list-group-item-action(href="#") (512) 412-1623 <i class="fas fa-mobile mr-2"></i>
-
+                        a.btn.btn-primary(href="mailto:math.matrix@icloud.com") Get In Contact
+                        a.btn.btn-secondary.ml-2(href="/download/resume") Get My R&#233;sum&#233;
 
         style.
             .jumbo-header {
-                background: url("assets/img/shiro-banner.png") no-repeat center center;
+                background: url("/assets/img/shiro-banner.png") no-repeat center center;
                 background-size: cover;
             }
 

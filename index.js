@@ -23,4 +23,6 @@ app.get('/download/resume', function(req, res) {
     res.download(__dirname + '/resources/downloads/Resume 2018.docx', 'Resume - Mason Phillips.docx');
 })
 
-app.listen(8080, () => console.log('Running on 8080'));
+const port = process.env.PORT || 8080
+
+app.listen(port, () => console.log('Running on ' + port));

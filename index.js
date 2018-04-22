@@ -13,15 +13,15 @@ app.use('/assets', express.static(__dirname + '/resources'));
 
 app.get('/', function(req, res) {
     v.pageview('/', 'Home').send();
-    res.render('index', {dd: JSON.stringify(data), active: '.home'});
+    res.render('index', {dd: JSON.stringify(data), active: '.home', title: 'Mason Phillips | MatrixSenpai'});
 });
 app.get('/professional', function(req, res) {
     v.pageview('/professional', 'Portfolio Page').send();
-    res.render('prof', {dd: JSON.stringify(data), active: '.professional'});
+    res.render('prof', {dd: JSON.stringify(data), active: '.professional', title: 'Professional | Mason Phillips'});
 });
 app.get('/social', function(req, res) {
     v.pageview('/social', 'Social Page').send();
-    res.render('social', {dd: JSON.stringify(data), active: '.social'});
+    res.render('social', {dd: JSON.stringify(data), active: '.social', title: 'Social | MatrixSenpai'});
 });
 
 app.get('/media/:link', function(req, res) {
